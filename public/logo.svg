@@ -1,0 +1,11 @@
+<svg width="220" height="72" viewBox="0 0 220 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="220" height="72" rx="18" fill="#F7F1E6"/>
+  <g>
+    <rect x="10" y="10" width="52" height="52" rx="16" fill="#D6B07A"/>
+    <path d="M24 19V53H31.5V39.5L41.3 53H49.5L38.2 37.8L48.8 19H40.5L31.5 31.5V19H24Z" fill="#3B312A"/>
+  </g>
+  <g fill="#3B312A">
+    <text x="76" y="31" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="2">KINGZ</text>
+    <text x="76" y="48" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="600" letter-spacing="1.6">&amp; AMAZING IMPORT</text>
+  </g>
+</svg>

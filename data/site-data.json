@@ -1,0 +1,119 @@
+{
+  "products": [
+    {
+      "id": "edu-books",
+      "name": "Exercise Books and Stationery",
+      "category": "Educational Materials",
+      "description": "Exercise books, pencils, pens and classroom essentials for schools and institutions.",
+      "priceRange": "GHS 120 - GHS 1,500",
+      "photoUrl": "",
+      "featured": true
+    },
+    {
+      "id": "school-furniture",
+      "name": "School Furniture",
+      "category": "Educational Materials",
+      "description": "Desks, chairs, whiteboards and classroom furniture designed for long-term use.",
+      "priceRange": "GHS 180 - GHS 4,800",
+      "photoUrl": "",
+      "featured": true
+    },
+    {
+      "id": "solar-systems",
+      "name": "Solar Systems",
+      "category": "Solar and Renewable Energy",
+      "description": "3KW to 30KW systems with panels, inverters, batteries and complete installations.",
+      "priceRange": "GHS 4,500 - GHS 220,000",
+      "photoUrl": "",
+      "featured": true
+    },
+    {
+      "id": "medical-equipment",
+      "name": "Medical Equipment",
+      "category": "Medical Equipment",
+      "description": "Autoclaves, monitors, consumables and hospital furniture for clinics and health facilities.",
+      "priceRange": "GHS 600 - GHS 52,000",
+      "photoUrl": "",
+      "featured": true
+    },
+    {
+      "id": "wash-supplies",
+      "name": "WASH Supplies",
+      "category": "WASH Supplies",
+      "description": "Pumps, pipes, filtration kits, testing equipment and reliable water access systems.",
+      "priceRange": "GHS 220 - GHS 16,500",
+      "photoUrl": "",
+      "featured": true
+    },
+    {
+      "id": "agri-tools",
+      "name": "Agricultural Tools",
+      "category": "Agricultural Equipment",
+      "description": "Solar irrigation systems, hand tools, maize shellers, mills and farm equipment.",
+      "priceRange": "GHS 180 - GHS 30,000",
+      "photoUrl": "",
+      "featured": true
+    }
+  ],
+  "certifications": [
+    {
+      "id": "ce",
+      "title": "CE Certificate (Solar Panels)",
+      "description": "Certifies compliance for imported solar equipment.",
+      "fileUrl": "/certs/ce.pdf",
+      "active": true
+    },
+    {
+      "id": "emc",
+      "title": "EMC Test Report (Lithium Battery)",
+      "description": "Battery safety and compatibility report.",
+      "fileUrl": "/certs/emc.pdf",
+      "active": true
+    },
+    {
+      "id": "iso",
+      "title": "ISO 9001 Certificate",
+      "description": "Quality management compliance for partner suppliers.",
+      "fileUrl": "/certs/iso.pdf",
+      "active": true
+    },
+    {
+      "id": "un38",
+      "title": "UN38.3 Certificate (Battery)",
+      "description": "International battery safety certification.",
+      "fileUrl": "/certs/un38.pdf",
+      "active": true
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "t1",
+      "name": "Mariam Abubakari",
+      "role": "School Administrator",
+      "quote": "Kingz & Amazing Import helped us deliver quality classroom materials ahead of the term."
+    },
+    {
+      "id": "t2",
+      "name": "Dr. Daniel Tetteh",
+      "role": "Clinic Director",
+      "quote": "Their import coordination and documentation saved us time and reduced stress during procurement."
+    },
+    {
+      "id": "t3",
+      "name": "Aziz Nuhu",
+      "role": "NGO Program Manager",
+      "quote": "The team was transparent, compliant and dependable from sourcing to final delivery in Tamale."
+    }
+  ],
+  "settings": {
+    "businessName": "KINGZ & AMAZING IMPORT",
+    "heroTitle": "We Bring What You Need From China — Delivered to Your Door in Tamale",
+    "heroSubtitle": "Import management for schools, clinics, NGOs and businesses across Northern Ghana.",
+    "companyPhone": "055 188 9999",
+    "whatsapp": "+233 55 188 9999",
+    "email": "kingzamazingimport@gmail.com",
+    "address": "BA288 Chinkara Street, Gumani, Tamale",
+    "officeHours": "Monday to Friday, 8am to 6pm"
+  },
+  "quoteRequests": []
+}
