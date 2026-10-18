@@ -1,5 +1,7 @@
 import Link from "next/link";
-import { getTestimonials } from "@/lib/site-data";
+import { getProducts, getTestimonials } from "@/lib/site-data";
+import { HomeProductSearch } from "@/components/home-product-search";
+import { vehicleShowcase } from "@/lib/catalog-config";
 
 const productHighlights = [
   {
@@ -60,6 +62,7 @@ const whyChooseUs = [
 ];
 
 export default async function HomePage() {
+  const products = await getProducts();
   const testimonials = await getTestimonials();
 
   return (
@@ -127,6 +130,26 @@ export default async function HomePage() {
         </div>
       </section>
 
+      <section className="section vehicle-feature-section">
+        <div className="container">
+          <div className="section-heading">
+            <p className="eyebrow">Vehicles</p>
+            <h2>Trusted mobility for business, transport and fleet growth</h2>
+          </div>
+
+          <div className="vehicle-showcase-grid">
+            {vehicleShowcase.map((item) => (
+              <article key={item.name} className="vehicle-showcase-card">
+                <div className="vehicle-icon">{item.icon}</div>
+                <h3>{item.name}</h3>
+                <p>{item.summary}</p>
+                <Link href={`/products?category=${encodeURIComponent("Vehicles")}`}>Explore fleet</Link>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section className="section">
         <div className="container">
           <div className="section-heading">
@@ -134,24 +157,7 @@ export default async function HomePage() {
             <h2>Everyday essentials built for schools, businesses and communities</h2>
           </div>
 
-          <div className="product-grid">
-            {productHighlights.map((product) => (
-              <article key={product.name} className="product-card">
-                <div className="product-visual">
-                  <img src={product.image} alt={product.name} />
-                </div>
-                <div className="product-body">
-                  <span className="product-category">Product category</span>
-                  <h3>{product.name}</h3>
-                  <p>{product.summary}</p>
-                  <div className="product-meta">
-                    <strong>Bulk supply</strong>
-                    <Link href={`/products?category=${encodeURIComponent(product.category)}`}>View products</Link>
-                  </div>
-                </div>
-              </article>
-            ))}
-          </div>
+          <HomeProductSearch products={products} />
         </div>
       </section>
 

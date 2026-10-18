@@ -53,6 +53,51 @@
       "priceRange": "GHS 180 - GHS 30,000",
       "photoUrl": "",
       "featured": true
+    },
+    {
+      "id": "car-fleet",
+      "name": "Passenger Cars",
+      "category": "Vehicles",
+      "description": "Fuel-efficient and commercial cars for operations, transport and institutional mobility.",
+      "priceRange": "GHS 24,000 - GHS 220,000",
+      "photoUrl": "",
+      "featured": true
+    },
+    {
+      "id": "motorbike-fleet",
+      "name": "Motorbikes",
+      "category": "Vehicles",
+      "description": "Reliable motorcycles for fast transport, logistics and daily commercial movement.",
+      "priceRange": "GHS 3,200 - GHS 18,000",
+      "photoUrl": "",
+      "featured": true
+    },
+    {
+      "id": "truck-fleet",
+      "name": "Heavy Duty Trucks",
+      "category": "Vehicles",
+      "description": "Utility trucks and cargo vehicles for distribution, trade and project logistics.",
+      "priceRange": "GHS 42,000 - GHS 320,000",
+      "photoUrl": "",
+      "featured": true
+    },
+    {
+      "id": "bus-fleet",
+      "name": "Passenger Buses",
+      "category": "Vehicles",
+      "description": "Mini and mid-size buses for transport services, schools and institutional mobility.",
+      "priceRange": "GHS 55,000 - GHS 260,000",
+      "photoUrl": "",
+      "featured": true
+    },
+    {
+      "id": "other-vehicles",
+      "name": "Other Vehicles",
+      "category": "Vehicles",
+      "description": "Special purpose transport, utility vehicles and additional fleet requirements.",
+      "priceRange": "GHS 8,000 - GHS 180,000",
+      "photoUrl": "",
+      "featured": true
     }
   ],
   "certifications": [

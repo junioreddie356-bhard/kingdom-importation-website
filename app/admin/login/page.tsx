@@ -2,8 +2,6 @@
 
 import { FormEvent, useState } from "react";
 
-export const revalidate = 0;
-
 export default function AdminLoginPage() {
   const [username, setUsername] = useState("admin");
   const [password, setPassword] = useState("");

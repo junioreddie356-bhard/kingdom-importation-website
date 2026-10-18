@@ -14,6 +14,7 @@
 2. Import the repository in Vercel.
 3. Add these environment variables in the Vercel dashboard:
    - `ADMIN_USERNAME`
+   - `ADMIN_PASSWORD`
    - `ADMIN_SESSION_SECRET`
    - `NEXT_PUBLIC_SITE_URL`
 4. Deploy the project.
